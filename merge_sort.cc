@@ -3,8 +3,11 @@
 
 typedef std::vector<int>::iterator int_iterator;
 
-void merge( int_iterator b1, int_iterator e1, int_iterator b2, int_iterator e2, std::vector<int> &result ) {
-    while( b1 != e1 && b2 != e2 ) {
+void merge( std::vector<int> &v1, std::vector<int> &v2, std::vector<int> &result ) {
+    auto b1 = v1.begin();
+    auto b2 = v2.begin();
+     
+    while( b1 != v1.end() && b2 != v2.end() ) {
         if( *b1 < *b2 ) {
             result.push_back( *b1 );
             b1++;
@@ -14,12 +17,12 @@ void merge( int_iterator b1, int_iterator e1, int_iterator b2, int_iterator e2, 
         }
     }
     
-    while( b1 != e1 ) {
+    while( b1 != v1.end() ) {
         result.push_back( *b1 );
         b1++;
     }
     
-    while( b2 != e2 ) {
+    while( b2 != v2.end() ) {
         result.push_back( *b2 );
         b2++;
     }
@@ -43,8 +46,7 @@ void merge_sort( const std::vector<int> &v, std::vector<int> &result ) {
     merge_sort( v1, result1 );
     merge_sort( v2, result2 );
     
-    merge( result1.begin(), result1.end(),
-           result2.begin(), result2.end(), result );
+    merge( result1, result2, result );
 }
 
 int main() {
