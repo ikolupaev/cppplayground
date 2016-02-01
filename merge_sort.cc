@@ -1,8 +1,6 @@
 #include <algorithm>
 #include <iostream>
 
-typedef std::vector<int>::iterator int_iterator;
-
 void merge( std::vector<int> &v1, std::vector<int> &v2, std::vector<int> &result ) {
     auto b1 = v1.begin();
     auto b2 = v2.begin();
