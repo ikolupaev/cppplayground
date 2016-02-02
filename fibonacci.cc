@@ -12,8 +12,7 @@ int fib( int n ) {
 int fib2( int n ) {
     
     if ( n < 1 ) return 0;
-    if ( n < 3 ) return 1;
-    
+
     int a = 1;
     int b = 1;
     
