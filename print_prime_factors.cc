@@ -1,15 +1,17 @@
 #include <iostream>
 
 class primes_provider {
-    
 public:
-    const static uint64_t size = 1000000;
-    bool primes[size];
+    size_t size;
+    bool *primes;
 
-    primes_provider() {
-        for( int i = 0; i < size; i++ ) primes[i] = true;
+    primes_provider( size_t size ) {
+        this->size = size;
+        primes = new bool[size];
+        
+        std::fill(primes, primes+size, true);
 
-        uint64_t next_prime = 2;
+        size_t next_prime = 2;
         while( next_prime < size ) {
             
             uint64_t n = next_prime*2;
@@ -19,20 +21,27 @@ public:
             }
             
             next_prime++;
-            while( !primes[next_prime] ) next_prime++;
+            while( next_prime < size && !primes[next_prime] ) next_prime++;
         }
     };
 
-    uint64_t get_next_prime( uint64_t number ) {
+    ~primes_provider() {
+        delete[] primes;
+    }
+
+    uint64_t find_next_prime( uint64_t number ) {
         number++;
-        while( !primes[number] ) number++;
+        while( number < size && !primes[number] ) number++;
+        
+        if( number >= size ) throw std::out_of_range( "no more primes calculated" );
+        
         return number;
     };
 };
 
 void print_prime_factors_of( uint64_t number ) {
     
-    primes_provider pr;
+    primes_provider pr(1500000000);
     auto last_prime = 2;
 
     while ( number != last_prime ) { 
@@ -41,7 +50,7 @@ void print_prime_factors_of( uint64_t number ) {
             number /= last_prime;
         }
         else {
-            last_prime = pr.get_next_prime( last_prime );
+            last_prime = pr.find_next_prime( last_prime );
             std::cout << last_prime << "\r";
         }
     }
