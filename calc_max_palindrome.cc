@@ -2,13 +2,15 @@
 
 using namespace std;
 
-bool is_palindrome( int num ) {
-    string s( to_string(num) );
+int reverse(int n) {
+    int result = 0;
     
-    for(int i = 0; i<s.size()/2; i++) 
-        if( s[i] != s[s.size()-i-1] ) return false;
-
-    return true;
+    while( n > 0 ) {
+        result = result * 10 + n % 10;
+        n /= 10; 
+    }
+    
+    return result;
 }
 
 int calc_max_palindrome( int min, int max ) {
@@ -17,7 +19,7 @@ int calc_max_palindrome( int min, int max ) {
     for( int a = min; a < max; a++ ) {
         for( int b = a; b < max; b++ ) {
             int ab = a*b;
-            if( is_palindrome(ab) ) {
+            if( ab == reverse(ab) ) {
                 max_p = std::max( ab, max_p );
             }
         }
