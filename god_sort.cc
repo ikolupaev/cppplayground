@@ -20,10 +20,12 @@ void god_sort( vector<int> &v ) {
         
         if( sorted ) break;
         
-        int i1 = rand() * v.size() / RAND_MAX;
-        int i2 = rand() * v.size() / RAND_MAX;
+        int i1 = rand() * (v.size()-1) / RAND_MAX;
+        int i2 = rand() * (v.size()-1) / RAND_MAX;
         
-        cout << "swaping #" << ++counter << " " << i1 << " " << i2 << endl; 
+        if( ++counter % 1000 == 0 )
+             cout << "swaping #" << counter << endl;
+
         swap( v[i1], v[i2] );
     }    
 }
