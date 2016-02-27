@@ -17,12 +17,11 @@ void lattice_paths_counter( int r, int c, int rows, int cols, uint64_t &result )
 } 
 
 int main() {
-    vector<uint64_t> result = {0,0};
-
     int rows = 10;
     int columns = rows;
     
     vector<thread*> tt;
+    vector<uint64_t> result = {0,0};
     
     tt.push_back( new thread( lattice_paths_counter, 1, 0, rows, columns, ref(result[0]) ) );
     tt.push_back( new thread( lattice_paths_counter, 0, 1, rows, columns, ref(result[1]) ) );
