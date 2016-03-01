@@ -1,0 +1,492 @@
+[33mcommit 93463029ee856fd044dbd086ed069d92a5e5f56d[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Mar 1 08:45:31 2016 +0300
+
+    refactored bits counter
+
+[33mcommit c062dfa4253a76b1756830cbeb218f5c6a732242[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Mar 1 08:32:48 2016 +0300
+
+    removed redundand
+
+[33mcommit fe6f75afac76af5010b0c7fdc5903f4007f7e5cf[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Feb 29 19:32:10 2016 +0300
+
+    added point rorator
+
+[33mcommit 14f36c690fb58b9a65865ae28b89f10e970cc55c[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Feb 29 19:31:54 2016 +0300
+
+    added num to words converter
+
+[33mcommit c6af47d0d205e8d351b4301bef945d264cfec296[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 14:03:09 2016 +0300
+
+    refactored lattice paths
+
+[33mcommit 64eef25aa4517710c2df100edc2b72878b4e290b[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 13:51:44 2016 +0300
+
+    added calculator of 2^1000 using sum.h
+
+[33mcommit 5ace5a50eaf31f306247d26a096570dc92b294d1[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 13:39:44 2016 +0300
+
+    minor refactoring applied to sum.h
+
+[33mcommit 98a7d0bb4f64a32f058705a1782a2535afe853d8[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 13:37:57 2016 +0300
+
+    added calculator of 2^1000 using sum.h
+
+[33mcommit b1a964f589b7f3ec547a7fab2ad761a766dee695[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 13:29:24 2016 +0300
+
+    refactored sum_big_numbers with usign sum.h
+
+[33mcommit 9713a572c9bdaf5a703a63fbb3a62b96d0d22597[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 27 13:27:57 2016 +0300
+
+    added separate implementation of sum biiiiig numbers
+
+[33mcommit 68b37285b014c04f1e05e53c3a6ffbedb6248b7e[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Fri Feb 26 08:02:06 2016 +0300
+
+    added lattice_paths counter (2 threads version)
+
+[33mcommit 7e1ca71f5b02e03c23453c396d05e211e4845d7a[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Thu Feb 25 21:34:52 2016 +0300
+
+    added max len of collatz sequence calculator
+
+[33mcommit 52f71fc99f035946cf6f831288a6c77fecdb130d[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Thu Feb 25 20:28:48 2016 +0300
+
+    fixed god_sort
+
+[33mcommit 6e1b53eb56e4800ffd09fa14940bae0dcb642afd[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Thu Feb 25 08:21:22 2016 +0300
+
+    added more fun to god sort aka bogo sort?
+
+[33mcommit 2714d2616b46faa59808af48e46e79a589e26ae2[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Wed Feb 24 18:49:06 2016 +0300
+
+    added histogram printer
+
+[33mcommit ad0c003cad3f001dab9e89036704b0c996960053[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Wed Feb 24 07:40:57 2016 +0300
+
+    added hofstadter_conway sequence calc
+
+[33mcommit ee2222f511f60e967ac39500eabb70ca826b6b7e[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Feb 22 19:40:09 2016 +0300
+
+    added summator of biiig numbers
+
+[33mcommit 768dde0a7f698f6dc1be49aff71533b2ed1a5428[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Feb 22 08:19:40 2016 +0300
+
+    added multiplier of 2 numbers by using add operation of asm x86
+
+[33mcommit 67ed201717cfa3ac25eb0049072f7f53884658e6[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sun Feb 21 14:57:10 2016 +0300
+
+    removed exe files
+
+[33mcommit 2d962f14de937172b78025ac7f50a0ddda4e2c78[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sun Feb 21 14:55:31 2016 +0300
+
+    added calculator of max product of 4 length vector in given matrix
+
+[33mcommit 0884aca1982255587dc57708afd91ecad5f9fa90[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sun Feb 21 13:49:43 2016 +0300
+
+    added way another primes calculator
+
+[33mcommit 324f78931d077bad6e9bf11e3009e48d7b2ccf16[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 20 22:20:51 2016 +0300
+
+    added solution for Highly divisible triangular number
+
+[33mcommit 7662c601022f99e145c6fe6d0c2c4af9e4f4c5d3[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 20 22:11:26 2016 +0300
+
+    added brutforce solution for Pythagorean triplet problem
+
+[33mcommit e4dc38ed59dd9564a982d116cf14ed9c84c1e691[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 20 22:10:25 2016 +0300
+
+    added next permutate seq calculator
+
+[33mcommit a598b9e735ef6b73315a4b1b7ce13572c91e6001[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Feb 16 23:58:22 2016 +0300
+
+    added swaper of ints
+
+[33mcommit 831d4331d3fabe2d77328925ab8d67c85c1c6b67[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Feb 16 00:02:38 2016 +0300
+
+    added god sort ;)
+
+[33mcommit 0efeacfe915c8e3ddd8ccbd279d6631bc8b3f553[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sun Feb 14 21:10:18 2016 +0300
+
+    added buuble sort
+
+[33mcommit a0ff88b656ebc65e8c365d31f112b79e25df68a1[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Sat Feb 13 13:23:52 2016 +0300
+
+    added permutate chars of string
+
+[33mcommit abf84039682d2561a5db7c08cda4bdfeef5cb167[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 11 08:18:28 2016 +0300
+
+    added fizz buzz :)
+
+[33mcommit 2b2698047be2ae3cef8c188ac1f788c548f9733e[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 11 07:36:59 2016 +0300
+
+    added bits counter
+
+[33mcommit 16a6ccf356d056383f0c6f3001c300ac416990e6[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 10 07:26:05 2016 +0300
+
+    added divider
+
+[33mcommit 94263f3d88cab24da95d0cebf461b8c1e301f990[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 18:37:47 2016 +0300
+
+    added calculator of largest product of 13 digits
+
+[33mcommit c50240c3ac0e005b1989032da3afe97fd94ed2c7[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:36:54 2016 +0300
+
+    removed binaries
+
+[33mcommit 08879a07950e86f586fedd2d8cb70a4e6095a2e2[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:35:33 2016 +0300
+
+    created compiler shortcut
+
+[33mcommit 9e024e0ba1ffba8b1c869e5037f4430eccab5a02[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:35:12 2016 +0300
+
+    refactored primes related routines
+
+[33mcommit 2e39ef1326854bf9d970cb5a4fe194a228a22828[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:33:49 2016 +0300
+
+    moved primes_provider to separate h
+
+[33mcommit 2fab10a774b5004b5d8a276dba7ed1524ff79f32[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:24:13 2016 +0300
+
+    added calculator of prime number with given index
+
+[33mcommit f664f57cf9ae7dca2cba962f2d441be5d3cf5c51[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 08:00:14 2016 +0300
+
+    addec calculator of diff between diff of square sum and sum of squares
+
+[33mcommit 116a68c6e2f6d2a276995a596813f77079a07c7d[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 07:49:54 2016 +0300
+
+    added checker that number has all deviders in the range
+
+[33mcommit cfe137a9bc5105d14798d9df74d3448441a4182e[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 07:48:29 2016 +0300
+
+    added checker if substring is rotated string
+
+[33mcommit c9ef77fb4cb201d70b74831524e9b34bce0b4407[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 9 07:47:17 2016 +0300
+
+    calc of k_shingle added
+
+[33mcommit 385de45ad1864946726aa085d0132a520043475d[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Feb 8 09:00:03 2016 +0300
+
+    improved palindrome calculation 2
+
+[33mcommit ad64a26d047e5d15d74943762417bb9326ba7f50[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Feb 8 08:52:47 2016 +0300
+
+    optimized palindrome calculator
+
+[33mcommit ab7bdad10d5bf81ccfc18b4d02844d37b6b9dd19[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Fri Feb 5 20:50:29 2016 +0300
+
+    cleaned solution up
+
+[33mcommit 3071e12001b9d4072d29887cb170c6a5bdde158a[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Fri Feb 5 20:46:56 2016 +0300
+
+    added k means calculator
+
+[33mcommit 772603b47445d2106fb2a3f3976d266c4601cfae[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 4 21:45:04 2016 +0300
+
+    improved prime factors calculating
+
+[33mcommit 2298e0c30ffc3b928c62364f9349f8fa85468b81[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 4 18:46:04 2016 +0300
+
+    integer overflow bug is fixed in prime factors
+
+[33mcommit dad14f1f3f159143633d8c784c25b8a478fdcf28[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 4 18:09:18 2016 +0300
+
+    refactored print prime factors with sieve
+
+[33mcommit fdba7dc7e45c173e1689da6e111ea4ca20f649e5[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 4 18:07:51 2016 +0300
+
+    added comment to find multiplies
+
+[33mcommit 533d76e38986d3a20ac727723a1dbc039862aa65[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Thu Feb 4 09:11:11 2016 +0300
+
+    fixed owerflow bug in print_primes
+
+[33mcommit 87c23fdafd8898db727b8535f58bf852d439a003[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 23:25:33 2016 +0300
+
+    feractored printing prime factors with sieve
+
+[33mcommit 70bf8aa7e0b5768f9c31e5f4e7704bd7ab37791a[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 22:32:25 2016 +0300
+
+    refactored print primes with Sieve of Eratosthenes approach
+
+[33mcommit 03dcc687c828020a0ff0a9cdd0ec7219acf79d3d[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 20:52:43 2016 +0300
+
+    added print primes
+
+[33mcommit 509f72831ca6072977c20ec8b830c61dacc5a01b[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 20:51:56 2016 +0300
+
+    added print prime factors
+
+[33mcommit d847a710d9d90b8ad5105cfdfd66888bb3dfc172[m
+Merge: a7ff205 10254be
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 19:32:48 2016 +0300
+
+    Merge branch 'master' of github.com:ikolupaev/cppplayground
+
+[33mcommit a7ff205c97bb476d0e3bd01fa78b63799378fee2[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 19:31:27 2016 +0300
+
+    added sum even fibinacchies
+
+[33mcommit e496932f84966da25bd26aceae8d980f3df9f5a7[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 19:13:55 2016 +0300
+
+    added find_all_mults
+
+[33mcommit 10254be6fc05a2d04975b066f56fc09e32e1cf26[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Wed Feb 3 09:01:29 2016 +0300
+
+    Create README.md
+
+[33mcommit 0ee63715d55a7cecac804a2584d6ba893bafad69[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Wed Feb 3 08:48:27 2016 +0300
+
+    added find loop start in the linked list
+
+[33mcommit 948473c3576a50e68a0d9104f28682115bff2026[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 2 20:54:32 2016 +0300
+
+    refactored winamax
+
+[33mcommit 5bc1475d4fe892e1551ebc0dc9239ac9e94ed63d[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 2 20:52:22 2016 +0300
+
+    added codingame winamax solution
+
+[33mcommit 6f40285196b24a1336dde364928fc1730762cb59[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 2 08:48:22 2016 +0300
+
+    refactored looped fibonacci
+
+[33mcommit ada639b1834f4cd0a797537f98915028e6a7c511[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 2 08:40:21 2016 +0300
+
+    added loop fibonacci
+
+[33mcommit 2da041d52d21b39be8934c70e82912137194a616[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Tue Feb 2 08:13:08 2016 +0300
+
+    added fibonacci
+
+[33mcommit 6e3c9605cbd52f7f012dd0611d55af5e24f7bee1[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Feb 1 18:36:30 2016 +0300
+
+    refactored merge sorting
+
+[33mcommit 34eb2209ed12775d94a39d0d74970aa5213695a6[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Feb 1 18:34:30 2016 +0300
+
+    refactored merge sorting
+
+[33mcommit 551b5cc57adaa6f090ff523afdacd57dfeb2da56[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Feb 1 18:28:11 2016 +0300
+
+    added merge sorting
+
+[33mcommit f26ac65b35cb415207da2ce36a9a3d18dd01a403[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Sat Jan 30 13:15:54 2016 +0300
+
+    added find path from root to node
+
+[33mcommit 5465297330400147f940aa8ba3573ae28bde3071[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Sat Jan 30 00:21:56 2016 +0300
+
+    is_tree_balanced.cc
+
+[33mcommit fee7e2caf3466c698657ab52d58d037577f5e6af[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Sat Jan 30 00:08:02 2016 +0300
+
+    added tree depth calculator
+
+[33mcommit 542374e13c70487a3d7ac3d1b932251d355f2c57[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Fri Jan 29 19:55:43 2016 +0000
+
+    added making tree from sorted buff of ints
+
+[33mcommit ec1fa0b89e770878411e840e231de190a52e9e6d[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Thu Jan 28 06:03:41 2016 +0000
+
+    added matrix_transpose
+
+[33mcommit c0697ee6502a4f09e3e43bb0b0aef314ca8c14ec[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Wed Jan 27 06:19:00 2016 +0000
+
+    added make string uniq on c
+
+[33mcommit e3faee802a01039d24461d3daa7934c40431af5d[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Wed Jan 27 06:18:32 2016 +0000
+
+    added uniq_chars
+
+[33mcommit bba08bd826ac56f18f38985ce50ec0c112f113a6[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Jan 26 17:35:58 2016 +0000
+
+    added reverse.cc
+
+[33mcommit 36289bc39ffa832ffea3fa635690d1f2806966b7[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Jan 26 13:59:18 2016 +0000
+
+    fixed code style
+
+[33mcommit fabee0316fd297886d4f75ccb2e943c7ad9b6f0c[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Jan 26 06:31:26 2016 +0000
+
+    added boost_hello
+
+[33mcommit d00716f4acef5e01397a2b5cef1389f018a721bc[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Tue Jan 26 05:14:12 2016 +0000
+
+    added is_child
+
+[33mcommit ec8058c97aace126adab7cdf4a6d72f6843d639c[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Jan 25 20:15:12 2016 +0000
+
+    added linked_list
+
+[33mcommit 4d7f88ebaec16a8673c5e216912ab40216a80ebb[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Jan 25 17:55:38 2016 +0000
+
+    executable removed
+
+[33mcommit 22e4d493160000a8c17acfabbec90fb23c7581fe[m
+Author: Igor Kolupaev <ikolupaev@gmail.com>
+Date:   Mon Jan 25 17:54:00 2016 +0000
+
+    fixed beeps solution
+
+[33mcommit 395d9987bd916b6945b20bea4df51db8f7c1d9ff[m
+Author: Igor Kolupaev <ikolupaev@hotmail.com>
+Date:   Mon Jan 25 19:54:42 2016 +0300
+
+    inital beeps commit
