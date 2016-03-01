@@ -6,46 +6,71 @@
 
 using namespace std;
 
-string num2str( int n ) {
-    vector<string> one = { "one", "two", "three", "four", "five", "six","seven", "eight", "nine", "ten", "eleven", "twelve" };
-    vector<string> teen = { "twen", "thir", "four", "fif", "six", "seven", "eigh", "nine" };
+const vector<string> one = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten" };
+const vector<string> teen = { "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+const vector<string> ty = { "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
-    if ( n < 13 ) {
-        return one[n-1];
+string num2str( int n ) {
+
+    if ( n < 11 ) {
+        return string(one[n-1]);
     }
     
     if ( n < 20 ) {
-        return teen[n-13] + "teen";
+        return string( teen[n-11] );
     }
     
     if ( n < 100 ) {
-        int tens = n / 10 - 2;
-        string ret = teen[tens] + "ty";
+        string ret( ty[n / 10 - 2] );
         
         int onces = n % 10;
         if ( onces > 0 ) {
-            ret += "-" + num2str( onces );     
+            ret.append( "-" );
+            ret.append( num2str( onces ) );     
         }
         
         return ret;
     }
     
     if ( n < 1000 ) {
-        return num2str( n / 100 ) + " hundred " + num2str( n % 100 ); 
+        string ret( num2str( n / 100 ) + " hundred" );
+    
+        int tens = n % 100;         
+        if ( tens != 0 ) {
+            ret.append( " and " + num2str( tens ) );
+        }
+        
+        return ret;
     }
     
     if ( n < 1000000 ) {
-        return num2str( n / 1000 ) + " thousand " + num2str( n % 1000 ); 
+        string ret( num2str( n / 1000 ) + " thousand" );
+
+        int hundred = n % 1000;         
+        if ( hundred != 0 ) {
+            ret.append( " and " + num2str( hundred ) );
+        }
+        
+        return ret;
     }
 
-    return "";
+    return string("");
 }
 
 string num2str1( int n ) {
     return to_string( n ) + ": " + num2str( n );
 }
 
+uint32_t count_letters( string s ) {
+    int count = 0;
+    for ( const char ch:s ) 
+        if ( ch != ' ' && ch != '-' ) count++;
+        
+    return count;
+}
+
 int main() {
+    cout << num2str1( 601 ) << endl;
     cout << num2str1( 10 ) << endl;
     cout << num2str1( 12 ) << endl;
     cout << num2str1( 13 ) << endl;
@@ -59,4 +84,16 @@ int main() {
     cout << num2str1( 256 ) << endl;
     cout << num2str1( 999 ) << endl;
     cout << num2str1( 123456 ) << endl;
+    
+    cout << count_letters( num2str(342) ) << endl;
+    cout << count_letters( num2str(115) ) << endl;
+    
+    uint32_t count = 0;
+    
+    for ( int i = 1; i <= 1000; i++ ) {
+        string s = num2str( i );
+        count += count_letters( s ); 
+        cout << s << endl;
+    }
+    cout << count << endl;
 }
