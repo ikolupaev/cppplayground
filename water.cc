@@ -48,19 +48,20 @@ int get_v( vector<int> a ) {
     return sum;
 }
 
-#define as( expression ) \
+#define as( expression, expected ) \
 { \
     int a = expression; \
-    cout << #expression << " = " << a << endl; \
+    cout << a << (a != expected ? " !" : " =") << "= " << expected << " : " << #expression << endl; \
 }
 
 int main() {
-    as( get_v( { 5,1,1,5 } ))
-    as( get_v( { 5,1,1,4 } ))
-    as( get_v( { 4,1,1,5 } ))
-    as( get_v( { 10, 4, 5, 3, 6, 4, 9 } ))
-    as( get_v( { 1,1,5 } ))
-    as( get_v( { 1,1,1 } ))
-    as( get_v( { 5,3,2 } ))
-    as( get_v( { 2,3,5 } ))
+    as( get_v( { 5,1,1,5 } ), 8 )
+    as( get_v( { 5,1,1,4 } ), 6 )
+    as( get_v( { 4,1,1,5 } ), 6 )
+    as( get_v( { 10, 4, 5, 3, 6, 4, 9 } ), 23 )
+    as( get_v( { 1,1,5 } ), 0 )
+    as( get_v( { 1,1,1 } ), 0 )
+    as( get_v( { 5,3,2 } ), 0 )
+    as( get_v( { 2,3,5 } ), 0 )
+    as( get_v( { 3,2,6,4,4,5 } ), 2 )
 }
