@@ -10,31 +10,31 @@ using namespace std;
 
 int get_v( vector<int> a ) {
     
-    int max = a[0];
+    int max = *(a.begin());
     int sum = 0;
     int accum = 0;
     
-    for ( int i = 1; i < a.size(); i++ ) {
-        if ( a[i] >= max ) {
+    for ( auto it = a.begin()+1; it != a.end(); it++ ) {
+        if ( *it >= max ) {
             sum += accum;
             accum = 0;
-            max = a[i];
+            max = *it;
         }
         else {
-            accum += max - a[i];
+            accum += max - *it;
         }
     }
 
-    max = a[a.size()-1];
+    max = *(a.rbegin());
     accum = 0;    
-    for ( int i = a.size()-2; i >= 0; i-- ) {
-        if ( a[i] > max ) {
+    for ( auto it = a.rbegin()+1; it != a.rend(); it++ ) {
+        if ( *it > max ) {
             sum += accum;
             accum = 0;
-            max = a[i];
+            max = *it;
         }
         else {
-            accum += max - a[i];
+            accum += max - *it;
         }
     }
 
